@@ -1,4 +1,5 @@
 pipeline {
+<<<<<<< HEAD
 +     2:     agent any
 +     3:
 +     4:     environment {
@@ -83,3 +84,89 @@ pipeline {
 +    83:         }
 +    84:     }
 +    85: }
+=======
+    agent any
+    
+    environment {
+        DOCKER_IMAGE = 'stylehub-online-shop'
+        DOCKER_TAG = "${env.BUILD_NUMBER}"
+        EC2_SERVER = 'ec2-user@your-ec2-ip' // Replace with your EC2 instance IP
+        SSH_CREDENTIALS = 'ec2-ssh-key' // ID of your Jenkins credentials
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    sh "docker build -t ${DOCKER_IMAGE}:${DOCKER_TAG} ."
+                    sh "docker tag ${DOCKER_IMAGE}:${DOCKER_TAG} ${DOCKER_IMAGE}:latest"
+                }
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                // Add tests if you have any
+                echo "Running tests..."
+                // Example: sh "npm test"
+            }
+        }
+        
+        stage('Push to Registry') {
+            steps {
+                script {
+                    // If you're using a private Docker registry, add credentials and push commands here
+                    // For example with Docker Hub:
+                    // docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                    //     sh "docker push ${DOCKER_IMAGE}:${DOCKER_TAG}"
+                    //     sh "docker push ${DOCKER_IMAGE}:latest"
+                    // }
+                    echo "Pushing to registry..."
+                }
+            }
+        }
+        
+        stage('Deploy to EC2') {
+            steps {
+                script {
+                    // Using SSH to deploy to EC2
+                    sshagent([SSH_CREDENTIALS]) {
+                        // Copy docker-compose.yml to the server
+                        sh "scp docker-compose.yml ${EC2_SERVER}:/home/ec2-user/stylehub/"
+                        
+                        // SSH into the server and deploy
+                        sh """
+                            ssh ${EC2_SERVER} '
+                                cd /home/ec2-user/stylehub
+                                docker-compose pull
+                                docker-compose down
+                                docker-compose up -d
+                            '
+                        """
+                    }
+                }
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo "Pipeline completed successfully!"
+        }
+        failure {
+            echo "Pipeline failed!"
+        }
+        always {
+            // Clean up local Docker images
+            sh "docker rmi ${DOCKER_IMAGE}:${DOCKER_TAG} || true"
+            sh "docker rmi ${DOCKER_IMAGE}:latest || true"
+        }
+    }
+}
+>>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
