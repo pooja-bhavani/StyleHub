@@ -276,7 +276,11 @@ nav ul li a.active::after {
 /* Featured Products */
 .featured-products {
     padding: 80px 0;
+<<<<<<< HEAD
     background-color: #222;
+=======
+    background-color: #000;
+>>>>>>> 284b462 (added files of e-commerce app)
 }
 
 .product-grid {
@@ -286,12 +290,20 @@ nav ul li a.active::after {
 }
 
 .product-card {
+<<<<<<< HEAD
     background-color: #333;
+=======
+    background-color: #222;
+>>>>>>> 284b462 (added files of e-commerce app)
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+<<<<<<< HEAD
     border: 1px solid #444;
+=======
+    border: 1px solid #333;
+>>>>>>> 284b462 (added files of e-commerce app)
 }
 
 .product-card:hover {
