@@ -1,5 +1,8 @@
 # StyleHub Online Shop
 
+![image](https://github.com/user-attachments/assets/63f804a4-9c5c-461f-9915-4dc717d45383)
+![image](https://github.com/user-attachments/assets/4cc7635b-375d-4899-b32f-c440d4e0c4fc)
+
 A modern e-commerce website for fashion and lifestyle products.
 
 ## Running with Docker
