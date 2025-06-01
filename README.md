@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# StyleHub-Online-Shop
-=======
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
 # StyleHub Online Shop
 
 A modern e-commerce website for fashion and lifestyle products.
@@ -52,7 +46,3 @@ python -m http.server 8000
 ```
 
 3. Open your browser and go to http://localhost:8000
-<<<<<<< HEAD
-=======
->>>>>>> 492a44a (added files of e-commerce app)
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
