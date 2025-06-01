@@ -2,187 +2,180 @@
   "products": [
     {
       "id": 1,
-      "title": "fitness tracker",
+      "title": "Fitness Tracker",
       "category": "Electronics",
-      "description": "Premium quality cotton t-shirt with a comfortable fit and stylish design.",
-      "price": 29.99,
-      "discountedPrice": 24.99,
+      "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
+      "price": 79.99,
+      "discountedPrice": 59.99,
       "isOnSale": true,
       "isNew": false,
       "rating": 4.5,
       "reviewCount": 128,
-      "colors": ["Black", "White", "Navy", "Gray"],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Blue", "Red"],
+      "sizes": [],
       "images": [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FFitness-Tracker-Waterproof-Activity-Temperature%2Fdp%2FB09M3KQ6D7&psig=AOvVaw2RO5UgvfBKr_z94_jzKpb3&ust=1748858434931000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCes8L7z40DFQAAAAAdAAAAABAE 300x300?text=T-Fitness Tracker
+        "images/products/fitness-tracker-new.jpg"
       ],
       "stock": 150,
-      "tags": ["casual", "cotton", "summer"]
+      "tags": ["electronics", "fitness", "wearable", "smart"]
     },
     {
       "id": 2,
-      "title": "Floral Summer Dress",
-      "category": "Women's Clothing",
-      "description": "Beautiful floral pattern dress perfect for summer days and special occasions.",
-      "price": 59.99,
-      "discountedPrice": null,
-      "isOnSale": false,
+      "title": "Formal Shirts Combo",
+      "category": "Men's Clothing",
+      "description": "Set of 3 premium formal shirts perfect for office and special occasions.",
+      "price": 89.99,
+      "discountedPrice": 69.99,
+      "isOnSale": true,
       "isNew": true,
       "rating": 4.8,
       "reviewCount": 86,
-      "colors": ["Blue", "Pink", "Yellow"],
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["White", "Blue", "Light Blue"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
       "images": [
-        "https://via.placeholder.com/500x600?text=Dress+Front",
-        "https://via.placeholder.com/500x600?text=Dress+Back"
+        "images/products/formal-shirts.jpg"
       ],
       "stock": 75,
-      "tags": ["dress", "floral", "summer", "women"]
+      "tags": ["formal", "shirts", "men", "office"]
     },
     {
       "id": 3,
-      "title": "Leather Crossbody Bag",
-      "category": "Accessories",
-      "description": "Stylish and practical leather crossbody bag with multiple compartments.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
+      "title": "Blackout Curtains",
+      "category": "Home Decor",
+      "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
+      "price": 49.99,
+      "discountedPrice": 39.99,
       "isOnSale": true,
       "isNew": false,
       "rating": 4.6,
       "reviewCount": 215,
-      "colors": ["Black", "Brown", "Tan"],
+      "colors": ["Grey", "Navy", "Beige"],
       "sizes": [],
       "images": [
-        "https://via.placeholder.com/500x600?text=Bag+Front",
-        "https://via.placeholder.com/500x600?text=Bag+Inside"
+        "images/products/curtains-new.jpg"
       ],
       "stock": 50,
-      "tags": ["bag", "leather", "accessories"]
+      "tags": ["home", "curtains", "blackout", "decor"]
     },
     {
       "id": 4,
-      "title": "Classic Denim Jeans",
-      "category": "Men's Clothing",
-      "description": "Timeless denim jeans with a comfortable fit and durable construction.",
-      "price": 79.99,
-      "discountedPrice": null,
-      "isOnSale": false,
-      "isNew": false,
-      "rating": 4.4,
-      "reviewCount": 320,
-      "colors": ["Blue", "Black", "Gray"],
-      "sizes": ["30", "32", "34", "36", "38", "40"],
-      "images": [
-        "https://via.placeholder.com/500x600?text=Jeans+Front",
-        "https://via.placeholder.com/500x600?text=Jeans+Back"
-      ],
-      "stock": 200,
-      "tags": ["jeans", "denim", "casual", "men"]
-    },
-    {
-      "id": 5,
-      "title": "Running Sneakers",
-      "category": "Footwear",
-      "description": "Lightweight and comfortable running sneakers with excellent support.",
-      "price": 119.99,
+      "title": "Wireless Earbuds",
+      "category": "Electronics",
+      "description": "True wireless earbuds with noise cancellation and long battery life.",
+      "price": 129.99,
       "discountedPrice": 99.99,
       "isOnSale": true,
       "isNew": true,
       "rating": 4.7,
-      "reviewCount": 178,
-      "colors": ["Black/White", "Blue/Gray", "Red/Black"],
-      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "reviewCount": 320,
+      "colors": ["White", "Black"],
+      "sizes": [],
       "images": [
-        "https://via.placeholder.com/500x600?text=Sneakers+Side",
-        "https://via.placeholder.com/500x600?text=Sneakers+Top"
+        "images/products/airpods.jpg"
+      ],
+      "stock": 200,
+      "tags": ["electronics", "audio", "wireless", "earbuds"]
+    },
+    {
+      "id": 5,
+      "title": "Professional Hair Dryer",
+      "category": "Beauty",
+      "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
+      "price": 89.99,
+      "discountedPrice": 69.99,
+      "isOnSale": true,
+      "isNew": true,
+      "rating": 4.7,
+      "reviewCount": 178,
+      "colors": ["Black", "Pink"],
+      "sizes": [],
+      "images": [
+        "images/products/hair-dryer.jpg"
       ],
       "stock": 85,
-      "tags": ["shoes", "running", "sports", "footwear"]
+      "tags": ["beauty", "hair", "styling", "appliance"]
     },
     {
       "id": 6,
-      "title": "Oversized Sunglasses",
+      "title": "Designer Sunglasses",
       "category": "Accessories",
-      "description": "Stylish oversized sunglasses with UV protection and durable frame.",
-      "price": 45.99,
-      "discountedPrice": null,
-      "isOnSale": false,
+      "description": "Stylish designer sunglasses with UV protection and durable frame.",
+      "price": 129.99,
+      "discountedPrice": 99.99,
+      "isOnSale": true,
       "isNew": true,
       "rating": 4.3,
       "reviewCount": 92,
       "colors": ["Black", "Tortoise", "Clear"],
       "sizes": [],
       "images": [
-        "https://via.placeholder.com/500x600?text=Sunglasses+Front",
-        "https://via.placeholder.com/500x600?text=Sunglasses+Side"
+        "images/sunglasses.jpg"
       ],
       "stock": 120,
-      "tags": ["sunglasses", "accessories", "summer"]
+      "tags": ["sunglasses", "accessories", "fashion"]
     },
     {
       "id": 7,
-      "title": "Knitted Sweater",
-      "category": "Women's Clothing",
-      "description": "Warm and cozy knitted sweater perfect for colder days.",
-      "price": 69.99,
+      "title": "Women's Stylish Footwear",
+      "category": "Footwear",
+      "description": "Comfortable and stylish women's footwear for everyday use.",
+      "price": 59.99,
       "discountedPrice": 49.99,
       "isOnSale": true,
       "isNew": false,
       "rating": 4.5,
       "reviewCount": 145,
-      "colors": ["Cream", "Gray", "Burgundy", "Navy"],
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Grey", "Black", "Pink"],
+      "sizes": ["36", "37", "38", "39", "40"],
       "images": [
-        "https://via.placeholder.com/500x600?text=Sweater+Front",
-        "https://via.placeholder.com/500x600?text=Sweater+Back"
+        "images/womens-footwear.jpg"
       ],
       "stock": 90,
-      "tags": ["sweater", "knitted", "winter", "women"]
+      "tags": ["footwear", "women", "fashion", "comfort"]
     },
     {
       "id": 8,
-      "title": "Leather Wallet",
-      "category": "Accessories",
-      "description": "Premium quality leather wallet with multiple card slots and compartments.",
-      "price": 39.99,
-      "discountedPrice": null,
-      "isOnSale": false,
+      "title": "Stainless Steel Water Bottle",
+      "category": "Lifestyle",
+      "description": "Premium stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+      "price": 29.99,
+      "discountedPrice": 24.99,
+      "isOnSale": true,
       "isNew": false,
       "rating": 4.6,
       "reviewCount": 210,
-      "colors": ["Black", "Brown"],
+      "colors": ["Silver", "Black", "Blue"],
       "sizes": [],
       "images": [
-        "https://via.placeholder.com/500x600?text=Wallet+Outside",
-        "https://via.placeholder.com/500x600?text=Wallet+Inside"
+        "images/water-bottle.jpg"
       ],
       "stock": 150,
-      "tags": ["wallet", "leather", "accessories"]
+      "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Men's Clothing",
-      "image": "https://via.placeholder.com/300x400?text=Men's+Clothing",
+      "image": "images/mens-fashion.jpg",
       "productCount": 120
     },
     {
       "id": 2,
       "name": "Women's Clothing",
-      "image": "https://via.placeholder.com/300x400?text=Women's+Clothing",
+      "image": "images/womens-footwear.jpg",
       "productCount": 150
     },
     {
       "id": 3,
-      "name": "Accessories",
-      "image": "https://via.placeholder.com/300x400?text=Accessories",
+      "name": "Electronics",
+      "image": "images/products/fitness-tracker-new.jpg",
       "productCount": 80
     },
     {
       "id": 4,
-      "name": "Footwear",
-      "image": "https://via.placeholder.com/300x400?text=Footwear",
+      "name": "Home Decor",
+      "image": "images/products/curtains-new.jpg",
       "productCount": 65
     }
   ],
