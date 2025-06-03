@@ -8,8 +8,9 @@ Kubernetes-MCP-Server
 
 ![image](https://github.com/user-attachments/assets/cba586a0-d233-4335-95c2-f397bf96cbf8)
 
+![image](https://github.com/user-attachments/assets/442336dd-7f1b-4d76-b291-1b6f660545a3)
 
-A modern e-commerce website for fashion and lifestyle products.
+# A modern e-commerce website for fashion and lifestyle products.
 
 ## Running with Docker
 
