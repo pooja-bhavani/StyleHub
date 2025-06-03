@@ -4,6 +4,9 @@
 ![image](https://github.com/user-attachments/assets/4cc7635b-375d-4899-b32f-c440d4e0c4fc)
 ![image](https://github.com/user-attachments/assets/f867209c-17ca-4a8d-a9c3-7a537da0c036)
 
+Kubernetes-MCP-Server
+![image](https://github.com/user-attachments/assets/cba586a0-d233-4335-95c2-f397bf96cbf8)
+
 
 A modern e-commerce website for fashion and lifestyle products.
 
