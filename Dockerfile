@@ -1,6 +1,4 @@
 FROM nginx:alpine
-
-<<<<<<< HEAD
 # Copy the website files to the nginx html directory
 COPY . /usr/share/nginx/html/
 =======
@@ -25,8 +23,6 @@ RUN chown -R appuser:appuser /usr/share/nginx/html && \
     # Make sure nginx can read the config
     chown -R appuser:appuser /var/cache/nginx && \
     chmod -R 755 /var/cache/nginx
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
-
 # Expose port 80
 EXPOSE 80
 
