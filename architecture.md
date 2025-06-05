@@ -19,7 +19,7 @@ The online shop application follows a modern web architecture with the following
    - Order history and transaction database
 
 4. **Infrastructure**
-   - Docker containerization (poojabhavani08/online_shop:latest)
+   - Docker containerization 
    - Load balancing for high availability
    - CDN for static assets
 
