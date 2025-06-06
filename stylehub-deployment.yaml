@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stylehub-deployment
+  labels:
+    app: stylehub
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: stylehub
+  template:
+    metadata:
+      labels:
+        app: stylehub
+    spec:
+      containers:
+      - name: stylehub
+        image: poojabhavani08/stylehub-online-shop:latest
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+          requests:
+            cpu: "200m"
+            memory: "256Mi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 5
