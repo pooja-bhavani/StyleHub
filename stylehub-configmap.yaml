@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: stylehub-config
-data:
-  # Add configuration values as needed
-  APP_ENV: "production"
-  LOG_LEVEL: "info"
