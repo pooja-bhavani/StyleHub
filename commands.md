@@ -1,6 +1,3 @@
-kubectl apply -k kubernetes-manifest-files
-
-
 
 # To install Kubernetes Dashbord
 ```
@@ -15,3 +12,8 @@ kubectl -n kubernetes-dashboard create token admin-user
 kubectl port-forward svc/kubernetes-dashboard -n kubernetes-dashboard 8080:443 --address=0.0.0.0 &
 ```
 kubectl create namespace monitoring
+
+To  port-forward Grafana
+```
+kubectl port-forward svc/grafana -n monitoring 3000:3000
+```
