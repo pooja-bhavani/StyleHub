@@ -1,13 +1,3 @@
-import json
-from collections import OrderedDict
-
-# Provided malformed JSON string (shortened for readability if needed)
-# You can imagine this is the string you pasted; for the real use-case, load it from a file
-
-# Since the provided JSON is very malformed (duplicate keys, structural errors), we'll fix it manually
-
-# Fixed products data (simplified and cleaned version)
-cleaned_data = {
     "products": [
         {
             "id": 1,
@@ -148,9 +138,3 @@ cleaned_data = {
     ]
 }
 
-# Save to JSON file
-cleaned_path = "/mnt/data/cleaned_products.json"
-with open(cleaned_path, "w") as f:
-    json.dump(cleaned_data, f, indent=2)
-
-cleaned_path
