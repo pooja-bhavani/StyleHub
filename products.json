@@ -1,427 +1,156 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "title": "Fitness Tracker",
-      "category": "Electronics",
-      "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
-      "price": 79.99,
-      "discountedPrice": 59.99,
-      
-      "title": "fitness tracker",
-      "category": "Electronics",
-      "description": "Premium quality cotton t-shirt with a comfortable fit and stylish design.",
-      "price": 29.99,
-      "discountedPrice": 24.99,
+import json
+from collections import OrderedDict
 
-      "title": "Fitness Tracker",
-      "category": "Electronics",
-      "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
-      "price": 79.99,
-      "discountedPrice": 59.99,
+# Provided malformed JSON string (shortened for readability if needed)
+# You can imagine this is the string you pasted; for the real use-case, load it from a file
 
-      "isOnSale": true,
-      "isNew": false,
-      "rating": 4.5,
-      "reviewCount": 128,
-      "colors": ["Black", "Blue", "Red"],
-      "sizes": [],
-      "images": [
-        "images/products/fitness-tracker-new.jpg"
-      ],
-      "stock": 150,
-      "tags": ["electronics", "fitness", "wearable", "smart"]
-    },
-    {
-      "id": 2,
-      "title": "Formal Shirts Combo",
-      "category": "Men's Clothing",
-      "description": "Set of 3 premium formal shirts perfect for office and special occasions.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.8,
-      "reviewCount": 86,
-      "colors": ["White", "Blue", "Light Blue"],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "images": [
-        "images/products/formal-shirts.jpg"
-      ],
-      "stock": 75,
-      "tags": ["formal", "shirts", "men", "office"]
-    },
-    {
-      "id": 3,
-      "title": "Blackout Curtains",
-      "category": "Home Decor",
-      "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
-      "price": 49.99,
-      "discountedPrice": 39.99,
+# Since the provided JSON is very malformed (duplicate keys, structural errors), we'll fix it manually
 
-      "colors": ["Black", "White", "Navy", "Gray"],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      
-      "colors": ["Black", "Blue", "Red"],
-      "sizes": [],
-      "images": [
-        "images/products/fitness-tracker-new.jpg"
-      ],
-      "stock": 150,
-      "tags": ["electronics", "fitness", "wearable", "smart"]
-    },
-    {
-      "id": 2,
-      "title": "Formal Shirts Combo",
-      "category": "Men's Clothing",
-      "description": "Set of 3 premium formal shirts perfect for office and special occasions.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.8,
-      "reviewCount": 86,
-      "colors": ["White", "Blue", "Light Blue"],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "images": [
-        "images/products/formal-shirts.jpg"
-      ],
-      "stock": 75,
-      "tags": ["formal", "shirts", "men", "office"]
-    },
-    {
-      "id": 3,
-
-      "title": "Leather Crossbody Bag",
-      "category": "Accessories",
-      "description": "Stylish and practical leather crossbody bag with multiple compartments.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-      
-      "title": "Blackout Curtains",
-      "category": "Home Decor",
-      "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
-      "price": 49.99,
-      "discountedPrice": 39.99,
-
-      "isOnSale": true,
-      "isNew": false,
-      "rating": 4.6,
-      "reviewCount": 215,
-
-      "colors": ["Grey", "Navy", "Beige"],
-      "sizes": [],
-      "images": [
-        "images/products/curtains-new.jpg"
-      ],
-      "stock": 50,
-      "tags": ["home", "curtains", "blackout", "decor"]
-    },
-    {
-      "id": 4,
-      "title": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "True wireless earbuds with noise cancellation and long battery life.",
-      "price": 129.99,
-      "discountedPrice": 99.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.7,
-      "reviewCount": 320,
-      "colors": ["White", "Black"],
-      "sizes": [],
-      "images": [
-        "images/products/airpods.jpg"
-      ],
-      "stock": 200,
-      "tags": ["electronics", "audio", "wireless", "earbuds"]
-    },
-    {
-      "id": 5,
-      "title": "Professional Hair Dryer",
-      "category": "Beauty",
-      "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-
-      "colors": ["Black", "Brown", "Tan"],
-
-      "colors": ["Grey", "Navy", "Beige"],
-
-      "sizes": [],
-      "images": [
-        "images/products/curtains-new.jpg"
-      ],
-      "stock": 50,
-      "tags": ["home", "curtains", "blackout", "decor"]
-    },
-    {
-      "id": 4,
-      "title": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "True wireless earbuds with noise cancellation and long battery life.",
-      "price": 129.99,
-      "discountedPrice": 99.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.7,
-      "reviewCount": 178,
-
-      "colors": ["Black", "Pink"],
-      "sizes": [],
-      "images": [
-        "images/products/hair-dryer.jpg"
-      ],
-      "stock": 85,
-      "tags": ["beauty", "hair", "styling", "appliance"]
-    },
-    {
-      "id": 6,
-      "title": "Designer Sunglasses",
-      "category": "Accessories",
-      "description": "Stylish designer sunglasses with UV protection and durable frame.",
-      "price": 129.99,
-      "discountedPrice": 99.99,
-      "isOnSale": true,
-
-      "colors": ["Black/White", "Blue/Gray", "Red/Black"],
-      "sizes": ["7", "8", "9", "10", "11", "12"],
-
-      "reviewCount": 320,
-      "colors": ["White", "Black"],
-      "sizes": [],
-      "images": [
-        "images/products/airpods.jpg"
-      ],
-      "stock": 200,
-      "tags": ["electronics", "audio", "wireless", "earbuds"]
-    },
-    {
-      "id": 5,
-      "title": "Professional Hair Dryer",
-      "category": "Beauty",
-      "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.7,
-      "reviewCount": 178,
-      "colors": ["Black", "Pink"],
-      "sizes": [],
-      "images": [
-        "images/products/hair-dryer.jpg"
-      ],
-      "stock": 85,
-      "tags": ["beauty", "hair", "styling", "appliance"]
-    },
-    {
-      "id": 6,
-      "title": "Designer Sunglasses",
-      "category": "Accessories",
-
-      "description": "Stylish oversized sunglasses with UV protection and durable frame.",
-      "price": 45.99,
-      "discountedPrice": null,
-      "isOnSale": false,
-
-      "description": "Stylish designer sunglasses with UV protection and durable frame.",
-      "price": 129.99,
-      "discountedPrice": 99.99,
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.3,
-      "reviewCount": 92,
-      "colors": ["Black", "Tortoise", "Clear"],
-      "sizes": [],
-      "images": [
-
-        "images/sunglasses.jpg"
-      ],
-      "stock": 120,
-      "tags": ["sunglasses", "accessories", "fashion"]
-    },
-    {
-      "id": 7,
-      "title": "Women's Stylish Footwear",
-      "category": "Footwear",
-      "description": "Comfortable and stylish women's footwear for everyday use.",
-      "price": 59.99,
-
-        "https://via.placeholder.com/500x600?text=Sunglasses+Front",
-        "https://via.placeholder.com/500x600?text=Sunglasses+Side"
-      ],
-      "stock": 120,
-      "tags": ["sunglasses", "accessories", "fashion"]
-    },
-    {
-      "id": 7,
-
-      "title": "Knitted Sweater",
-      "category": "Women's Clothing",
-      "description": "Warm and cozy knitted sweater perfect for colder days.",
-      "price": 69.99,
-      "title": "Women's Stylish Footwear",
-      "category": "Footwear",
-      "description": "Comfortable and stylish women's footwear for everyday use.",
-      "price": 59.99,
-      "discountedPrice": 49.99,
-      "isOnSale": true,
-      "isNew": false,
-      "rating": 4.5,
-      "reviewCount": 145,
-
-      "colors": ["Grey", "Black", "Pink"],
-      "sizes": ["36", "37", "38", "39", "40"],
-      "images": [
-        "images/womens-footwear.jpg"
-      ],
-      "stock": 90,
-      "tags": ["footwear", "women", "fashion", "comfort"]
-    },
-    {
-      "id": 8,
-      "title": "Stainless Steel Water Bottle",
-      "category": "Lifestyle",
-      "description": "Premium stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
-      "price": 29.99,
-      "discountedPrice": 24.99,
-      "isOnSale": true,
-      "isNew": false,
-      "rating": 4.6,
-      "reviewCount": 210,
-      "colors": ["Silver", "Black", "Blue"],
-      "sizes": [],
-      "images": [
-        "images/water-bottle.jpg"
-      ],
-      "stock": 150,
-      "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
-
-      "colors": ["Cream", "Gray", "Burgundy", "Navy"],
-      "sizes": ["XS", "S", "M", "L", "XL"],
-
-      "colors": ["Grey", "Black", "Pink"],
-      "sizes": ["36", "37", "38", "39", "40"],
-
-      "images": [
-        "images/womens-footwear.jpg"
-      ],
-      "stock": 90,
-      "tags": ["footwear", "women", "fashion", "comfort"]
-    },
-    {
-      "id": 8,
-      "title": "Stainless Steel Water Bottle",
-      "category": "Lifestyle",
-      "description": "Premium stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
-      "price": 29.99,
-      "discountedPrice": 24.99,
-      "isOnSale": true,
-      "isNew": false,
-      "rating": 4.6,
-      "reviewCount": 210,
-      "colors": ["Silver", "Black", "Blue"],
-      "sizes": [],
-      "images": [
-        "images/water-bottle.jpg"
-      ],
-      "stock": 150,
-
-      "tags": ["wallet", "leather", "accessories"]
-      "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Men's Clothing",
-      "image": "images/mens-fashion.jpg",
-
-      "image": "https://via.placeholder.com/300x400?text=Men's+Clothing",
-
-      "image": "images/mens-fashion.jpg",
-      "productCount": 120
-    },
-    {
-      "id": 2,
-      "name": "Women's Clothing",
-
-      "image": "images/womens-footwear.jpg",
-
-      "image": "https://via.placeholder.com/300x400?text=Women's+Clothing",
-
-      "image": "images/womens-footwear.jpg",
-
-      "productCount": 150
-    },
-    {
-      "id": 3,
-
-      "name": "Electronics",
-      "image": "images/products/fitness-tracker-new.jpg",
-
-      "name": "Accessories",
-      "image": "https://via.placeholder.com/300x400?text=Accessories",
-
-      "name": "Electronics",
-      "image": "images/products/fitness-tracker-new.jpg",
-      "productCount": 80
-    },
-    {
-      "id": 4,
-      "name": "Home Decor",
-      "image": "images/products/curtains-new.jpg",
-
-      "name": "Footwear",
-      "image": "https://via.placeholder.com/300x400?text=Footwear",
-
-      "name": "Home Decor",
-      "image": "images/products/curtains-new.jpg",
-      "productCount": 65
-    }
-  ],
-  "banners": [
-    {
-      "id": 1,
-      "title": "Summer Collection 2025",
-      "subtitle": "Discover the latest trends in fashion",
-      "image": "https://via.placeholder.com/1920x600?text=Summer+Collection",
-      "buttonText": "Shop Now",
-      "buttonLink": "/summer-collection"
-    },
-    {
-      "id": 2,
-      "title": "New Arrivals",
-      "subtitle": "Be the first to get our newest styles",
-      "image": "https://via.placeholder.com/1920x600?text=New+Arrivals",
-      "buttonText": "Explore",
-      "buttonLink": "/new-arrivals"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe",
-      "email": "john.doe@example.com",
-      "address": {
-        "street": "123 Main St",
-        "city": "Anytown",
-        "state": "CA",
-        "zipCode": "12345",
-        "country": "USA"
-      },
-      "orders": [
+# Fixed products data (simplified and cleaned version)
+cleaned_data = {
+    "products": [
         {
-          "orderId": "ORD-2025-001",
-          "date": "2025-05-15",
-          "status": "Delivered",
-          "total": 124.97,
-          "items": [1, 3]
+            "id": 1,
+            "title": "Fitness Tracker",
+            "category": "Electronics",
+            "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
+            "price": 79.99,
+            "discountedPrice": 59.99,
+            "isOnSale": True,
+            "isNew": False,
+            "rating": 4.5,
+            "reviewCount": 128,
+            "colors": ["Black", "Blue", "Red"],
+            "sizes": [],
+            "images": ["images/products/fitness-tracker-new.jpg"],
+            "stock": 150,
+            "tags": ["electronics", "fitness", "wearable", "smart"]
+        },
+        {
+            "id": 2,
+            "title": "Formal Shirts Combo",
+            "category": "Men's Clothing",
+            "description": "Set of 3 premium formal shirts perfect for office and special occasions.",
+            "price": 89.99,
+            "discountedPrice": 69.99,
+            "isOnSale": True,
+            "isNew": True,
+            "rating": 4.8,
+            "reviewCount": 86,
+            "colors": ["White", "Blue", "Light Blue"],
+            "sizes": ["S", "M", "L", "XL", "XXL"],
+            "images": ["images/products/formal-shirts.jpg"],
+            "stock": 75,
+            "tags": ["formal", "shirts", "men", "office"]
+        },
+        {
+            "id": 3,
+            "title": "Blackout Curtains",
+            "category": "Home Decor",
+            "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
+            "price": 49.99,
+            "discountedPrice": 39.99,
+            "isOnSale": True,
+            "isNew": False,
+            "rating": 4.6,
+            "reviewCount": 215,
+            "colors": ["Grey", "Navy", "Beige"],
+            "sizes": [],
+            "images": ["images/products/curtains-new.jpg"],
+            "stock": 50,
+            "tags": ["home", "curtains", "blackout", "decor"]
+        },
+        {
+            "id": 4,
+            "title": "Wireless Earbuds",
+            "category": "Electronics",
+            "description": "True wireless earbuds with noise cancellation and long battery life.",
+            "price": 129.99,
+            "discountedPrice": 99.99,
+            "isOnSale": True,
+            "isNew": True,
+            "rating": 4.7,
+            "reviewCount": 320,
+            "colors": ["White", "Black"],
+            "sizes": [],
+            "images": ["images/products/airpods.jpg"],
+            "stock": 200,
+            "tags": ["electronics", "audio", "wireless", "earbuds"]
+        },
+        {
+            "id": 5,
+            "title": "Professional Hair Dryer",
+            "category": "Beauty",
+            "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
+            "price": 89.99,
+            "discountedPrice": 69.99,
+            "isOnSale": True,
+            "isNew": True,
+            "rating": 4.7,
+            "reviewCount": 178,
+            "colors": ["Black", "Pink"],
+            "sizes": [],
+            "images": ["images/products/hair-dryer.jpg"],
+            "stock": 85,
+            "tags": ["beauty", "hair", "styling", "appliance"]
+        },
+        {
+            "id": 6,
+            "title": "Designer Sunglasses",
+            "category": "Accessories",
+            "description": "Stylish designer sunglasses with UV protection and durable frame.",
+            "price": 129.99,
+            "discountedPrice": 99.99,
+            "isOnSale": True,
+            "isNew": True,
+            "rating": 4.3,
+            "reviewCount": 92,
+            "colors": ["Black", "Tortoise", "Clear"],
+            "sizes": [],
+            "images": ["images/sunglasses.jpg"],
+            "stock": 120,
+            "tags": ["sunglasses", "accessories", "fashion"]
+        },
+        {
+            "id": 7,
+            "title": "Women's Stylish Footwear",
+            "category": "Footwear",
+            "description": "Comfortable and stylish women's footwear for everyday use.",
+            "price": 59.99,
+            "discountedPrice": 49.99,
+            "isOnSale": True,
+            "isNew": False,
+            "rating": 4.5,
+            "reviewCount": 145,
+            "colors": ["Grey", "Black", "Pink"],
+            "sizes": ["36", "37", "38", "39", "40"],
+            "images": ["images/womens-footwear.jpg"],
+            "stock": 90,
+            "tags": ["footwear", "women", "fashion", "comfort"]
+        },
+        {
+            "id": 8,
+            "title": "Stainless Steel Water Bottle",
+            "category": "Lifestyle",
+            "description": "Premium stainless steel water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+            "price": 29.99,
+            "discountedPrice": 24.99,
+            "isOnSale": True,
+            "isNew": False,
+            "rating": 4.6,
+            "reviewCount": 210,
+            "colors": ["Silver", "Black", "Blue"],
+            "sizes": [],
+            "images": ["images/water-bottle.jpg"],
+            "stock": 150,
+            "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
         }
-      ],
-      "wishlist": [2, 5, 7]
-    }
-  ]
+    ]
 }
+
+# Save to JSON file
+cleaned_path = "/mnt/data/cleaned_products.json"
+with open(cleaned_path, "w") as f:
+    json.dump(cleaned_data, f, indent=2)
+
+cleaned_path
