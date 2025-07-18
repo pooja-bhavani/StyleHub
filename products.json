@@ -13,9 +13,7 @@
       "reviewCount": 128,
       "colors": ["Black", "Blue", "Red"],
       "sizes": [],
-      "images": [
-        "images/products/fitness-tracker-new.jpg"
-      ],
+      "images": ["images/products/fitness-tracker-new.jpg"],
       "stock": 150,
       "tags": ["electronics", "fitness", "wearable", "smart"]
     },
@@ -32,9 +30,7 @@
       "reviewCount": 86,
       "colors": ["White", "Blue", "Light Blue"],
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "images": [
-        "images/products/formal-shirts.jpg"
-      ],
+      "images": ["images/products/formal-shirts.jpg"],
       "stock": 75,
       "tags": ["formal", "shirts", "men", "office"]
     },
@@ -45,37 +41,13 @@
       "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
       "price": 49.99,
       "discountedPrice": 39.99,
-      "colors": ["Black", "White", "Navy", "Gray"],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "images": [
-        "images/products/fitness-tracker-new.jpg"
-      ],
-      "stock": 150,
-      "tags": ["electronics", "fitness", "wearable", "smart"]
-    },
-    {
-      "id": 3,
-
-      "title": "Leather Crossbody Bag",
-      "category": "Accessories",
-      "description": "Stylish and practical leather crossbody bag with multiple compartments.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-
-      "title": "Blackout Curtains",
-      "category": "Home Decor",
-      "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
-      "price": 49.99,
-      "discountedPrice": 39.99
       "isOnSale": true,
       "isNew": false,
       "rating": 4.6,
       "reviewCount": 215,
       "colors": ["Grey", "Navy", "Beige"],
       "sizes": [],
-      "images": [
-        "images/products/curtains-new.jpg"
-      ],
+      "images": ["images/products/curtains-new.jpg"],
       "stock": 50,
       "tags": ["home", "curtains", "blackout", "decor"]
     },
@@ -92,59 +64,7 @@
       "reviewCount": 320,
       "colors": ["White", "Black"],
       "sizes": [],
-      "images": [
-        "images/products/airpods.jpg"
-      ],
-      "stock": 200,
-      "tags": ["electronics", "audio", "wireless", "earbuds"]
-    },
-    {
-      "id": 5,
-      "title": "Professional Hair Dryer",
-      "category": "Beauty",
-      "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
-      "price": 89.99,
-      "discountedPrice": 69.99,
-      "colors": ["Black", "Brown", "Tan"],
-      "colors": ["Grey", "Navy", "Beige"],
-
-      "sizes": [],
-      "images": [
-        "images/products/curtains-new.jpg"
-      ],
-      "stock": 50,
-      "tags": ["home", "curtains", "blackout", "decor"]
-    },
-    {
-      "id": 4,
-      "title": "Wireless Earbuds",
-      "category": "Electronics",
-      "description": "True wireless earbuds with noise cancellation and long battery life.",
-      "price": 129.99,
-
-      "isOnSale": true,
-      "isNew": true,
-      "rating": 4.7,
-      "reviewCount": 178,
-      "colors": ["Black", "Pink"],
-      "sizes": [],
-      "images": [
-        "images/products/hair-dryer.jpg"
-      ],
-      "stock": 85,
-      "tags": ["beauty", "hair", "styling", "appliance"]
-    },
-    {
-
-      "isOnSale": true,
-      "colors": ["Black/White", "Blue/Gray", "Red/Black"],
-      "sizes": ["7", "8", "9", "10", "11", "12"],
-      "reviewCount": 320,
-      "colors": ["White", "Black"],
-      "sizes": [],
-      "images": [
-        "images/products/airpods.jpg"
-      ],
+      "images": ["images/products/airpods.jpg"],
       "stock": 200,
       "tags": ["electronics", "audio", "wireless", "earbuds"]
     },
@@ -161,9 +81,7 @@
       "reviewCount": 178,
       "colors": ["Black", "Pink"],
       "sizes": [],
-      "images": [
-        "images/products/hair-dryer.jpg"
-      ],
+      "images": ["images/products/hair-dryer.jpg"],
       "stock": 85,
       "tags": ["beauty", "hair", "styling", "appliance"]
     },
@@ -171,11 +89,6 @@
       "id": 6,
       "title": "Designer Sunglasses",
       "category": "Accessories",
-      "description": "Stylish oversized sunglasses with UV protection and durable frame.",
-      "price": 45.99,
-      "discountedPrice": null,
-      "isOnSale": false,
-      "isNew": true,
       "description": "Stylish designer sunglasses with UV protection and durable frame.",
       "price": 129.99,
       "discountedPrice": 99.99,
@@ -186,12 +99,7 @@
       "colors": ["Black", "Tortoise", "Clear"],
       "sizes": [],
       "images": [
-        "images/sunglasses.jpg"
-      ],
-      "stock": 120,
-      "tags": ["sunglasses", "accessories", "fashion"]
-    },
-    
+        "images/sunglasses.jpg",
         "https://via.placeholder.com/500x600?text=Sunglasses+Front",
         "https://via.placeholder.com/500x600?text=Sunglasses+Side"
       ],
@@ -200,11 +108,6 @@
     },
     {
       "id": 7,
-      "title": "Knitted Sweater",
-      "category": "Women's Clothing",
-      "description": "Warm and cozy knitted sweater perfect for colder days.",
-      "price": 69.99,
-
       "title": "Women's Stylish Footwear",
       "category": "Footwear",
       "description": "Comfortable and stylish women's footwear for everyday use.",
@@ -214,18 +117,9 @@
       "isNew": false,
       "rating": 4.5,
       "reviewCount": 145,
-
       "colors": ["Grey", "Black", "Pink"],
       "sizes": ["36", "37", "38", "39", "40"],
-      "images": [
-        "images/womens-footwear.jpg"
-      ],
-      "stock": 90,
-      "tags": ["footwear", "women", "fashion", "comfort"]
-    },
-      {
-        "images/womens-footwear.jpg"
-      ],
+      "images": ["images/womens-footwear.jpg"],
       "stock": 90,
       "tags": ["footwear", "women", "fashion", "comfort"]
     },
@@ -242,43 +136,41 @@
       "reviewCount": 210,
       "colors": ["Silver", "Black", "Blue"],
       "sizes": [],
-      "images": [
-        "images/water-bottle.jpg"
-      ],
+      "images": ["images/water-bottle.jpg"],
       "stock": 150,
-      "tags": ["wallet", "leather", "accessories"]
       "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
     }
-      ],
+  ],
   "categories": [
     {
       "id": 1,
       "name": "Men's Clothing",
-      "image": "images/mens-fashion.jpg",
       "image": "https://via.placeholder.com/300x400?text=Men's+Clothing",
       "productCount": 120
     },
-
     {
-      "id": 3,
-       
-      "name": "Electronics",
-      "image": "images/products/fitness-tracker-new.jpg",
+      "id": 2,
       "name": "Accessories",
       "image": "https://via.placeholder.com/300x400?text=Accessories",
+      "productCount": 40
+    },
+    {
+      "id": 3,
       "name": "Electronics",
       "image": "images/products/fitness-tracker-new.jpg",
       "productCount": 80
     },
     {
       "id": 4,
-
-      "name": "Footwear",
-      "image": "https://via.placeholder.com/300x400?text=Footwear",
-
       "name": "Home Decor",
       "image": "images/products/curtains-new.jpg",
       "productCount": 65
+    },
+    {
+      "id": 5,
+      "name": "Footwear",
+      "image": "https://via.placeholder.com/300x400?text=Footwear",
+      "productCount": 90
     }
   ],
   "banners": [
