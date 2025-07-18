@@ -1,28 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Workbord T-shirt",
+    "title": "Women's Footwear",
     "img": "/assets/product-1.png"
   },
   {
     "id": 2,
-    "title": "Workbord Hoodie",
+    "title": "Men's Fashion",
     "img": "/assets/product-2.png"
   },
   {
     "id": 3,
-    "title": "Workbord Cap",
+    "title": "Sunglasses",
     "img": "/assets/product-3.png"
   },
   {
     "id": 4,
-    "title": "Workbord T-shirt (Alt)",
-    "img": "/assets/product-1.png"
-  },
-  {
-    "id": 5,
-    "title": "Workbord Hoodie (Alt)",
-    "img": "/assets/product-2.png"
+    "title": "Bottle",
+    "img": "/assets/product-4.png"
   }
 ]
 
