@@ -2,33 +2,28 @@
   "products": [
     {
       "id": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
       "title": "Fitness Tracker",
       "category": "Electronics",
       "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
       "price": 79.99,
       "discountedPrice": 59.99,
-=======
+      
       "title": "fitness tracker",
       "category": "Electronics",
       "description": "Premium quality cotton t-shirt with a comfortable fit and stylish design.",
       "price": 29.99,
       "discountedPrice": 24.99,
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "title": "Fitness Tracker",
       "category": "Electronics",
       "description": "Smart fitness tracker with heart rate monitor, sleep tracking, and water resistance.",
       "price": 79.99,
       "discountedPrice": 59.99,
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
+
       "isOnSale": true,
       "isNew": false,
       "rating": 4.5,
       "reviewCount": 128,
-<<<<<<< HEAD
-<<<<<<< HEAD
       "colors": ["Black", "Blue", "Red"],
       "sizes": [],
       "images": [
@@ -63,13 +58,12 @@
       "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
       "price": 49.99,
       "discountedPrice": 39.99,
-=======
+
       "colors": ["Black", "White", "Navy", "Gray"],
       "sizes": ["S", "M", "L", "XL", "XXL"],
-=======
+      
       "colors": ["Black", "Blue", "Red"],
       "sizes": [],
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "images": [
         "images/products/fitness-tracker-new.jpg"
       ],
@@ -97,26 +91,24 @@
     },
     {
       "id": 3,
-<<<<<<< HEAD
+
       "title": "Leather Crossbody Bag",
       "category": "Accessories",
       "description": "Stylish and practical leather crossbody bag with multiple compartments.",
       "price": 89.99,
       "discountedPrice": 69.99,
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+      
       "title": "Blackout Curtains",
       "category": "Home Decor",
       "description": "Premium blackout curtains that block light and reduce noise for better sleep.",
       "price": 49.99,
       "discountedPrice": 39.99,
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
+
       "isOnSale": true,
       "isNew": false,
       "rating": 4.6,
       "reviewCount": 215,
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       "colors": ["Grey", "Navy", "Beige"],
       "sizes": [],
       "images": [
@@ -151,11 +143,11 @@
       "description": "Salon-quality hair dryer with multiple heat settings and ionic technology.",
       "price": 89.99,
       "discountedPrice": 69.99,
-=======
+
       "colors": ["Black", "Brown", "Tan"],
-=======
+
       "colors": ["Grey", "Navy", "Beige"],
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
+
       "sizes": [],
       "images": [
         "images/products/curtains-new.jpg"
@@ -170,13 +162,11 @@
       "description": "True wireless earbuds with noise cancellation and long battery life.",
       "price": 129.99,
       "discountedPrice": 99.99,
->>>>>>> 284b462 (added files of e-commerce app)
       "isOnSale": true,
       "isNew": true,
       "rating": 4.7,
-<<<<<<< HEAD
       "reviewCount": 178,
-<<<<<<< HEAD
+
       "colors": ["Black", "Pink"],
       "sizes": [],
       "images": [
@@ -193,14 +183,13 @@
       "price": 129.99,
       "discountedPrice": 99.99,
       "isOnSale": true,
-=======
+
       "colors": ["Black/White", "Blue/Gray", "Red/Black"],
       "sizes": ["7", "8", "9", "10", "11", "12"],
-=======
+
       "reviewCount": 320,
       "colors": ["White", "Black"],
       "sizes": [],
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "images": [
         "images/products/airpods.jpg"
       ],
@@ -230,26 +219,23 @@
       "id": 6,
       "title": "Designer Sunglasses",
       "category": "Accessories",
-<<<<<<< HEAD
+
       "description": "Stylish oversized sunglasses with UV protection and durable frame.",
       "price": 45.99,
       "discountedPrice": null,
       "isOnSale": false,
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "description": "Stylish designer sunglasses with UV protection and durable frame.",
       "price": 129.99,
       "discountedPrice": 99.99,
       "isOnSale": true,
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "isNew": true,
       "rating": 4.3,
       "reviewCount": 92,
       "colors": ["Black", "Tortoise", "Clear"],
       "sizes": [],
       "images": [
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         "images/sunglasses.jpg"
       ],
       "stock": 120,
@@ -261,37 +247,30 @@
       "category": "Footwear",
       "description": "Comfortable and stylish women's footwear for everyday use.",
       "price": 59.99,
-=======
+
         "https://via.placeholder.com/500x600?text=Sunglasses+Front",
         "https://via.placeholder.com/500x600?text=Sunglasses+Side"
-=======
-        "images/sunglasses.jpg"
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       ],
       "stock": 120,
       "tags": ["sunglasses", "accessories", "fashion"]
     },
     {
       "id": 7,
-<<<<<<< HEAD
+
       "title": "Knitted Sweater",
       "category": "Women's Clothing",
       "description": "Warm and cozy knitted sweater perfect for colder days.",
       "price": 69.99,
->>>>>>> 284b462 (added files of e-commerce app)
-=======
       "title": "Women's Stylish Footwear",
       "category": "Footwear",
       "description": "Comfortable and stylish women's footwear for everyday use.",
       "price": 59.99,
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "discountedPrice": 49.99,
       "isOnSale": true,
       "isNew": false,
       "rating": 4.5,
       "reviewCount": 145,
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       "colors": ["Grey", "Black", "Pink"],
       "sizes": ["36", "37", "38", "39", "40"],
       "images": [
@@ -318,13 +297,13 @@
       ],
       "stock": 150,
       "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
-=======
+
       "colors": ["Cream", "Gray", "Burgundy", "Navy"],
       "sizes": ["XS", "S", "M", "L", "XL"],
-=======
+
       "colors": ["Grey", "Black", "Pink"],
       "sizes": ["36", "37", "38", "39", "40"],
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
+
       "images": [
         "images/womens-footwear.jpg"
       ],
@@ -348,73 +327,57 @@
         "images/water-bottle.jpg"
       ],
       "stock": 150,
-<<<<<<< HEAD
+
       "tags": ["wallet", "leather", "accessories"]
->>>>>>> 284b462 (added files of e-commerce app)
-=======
       "tags": ["bottle", "hydration", "lifestyle", "eco-friendly"]
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Men's Clothing",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "image": "images/mens-fashion.jpg",
-=======
+
       "image": "https://via.placeholder.com/300x400?text=Men's+Clothing",
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "image": "images/mens-fashion.jpg",
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "productCount": 120
     },
     {
       "id": 2,
       "name": "Women's Clothing",
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       "image": "images/womens-footwear.jpg",
-=======
+
       "image": "https://via.placeholder.com/300x400?text=Women's+Clothing",
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "image": "images/womens-footwear.jpg",
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
+
       "productCount": 150
     },
     {
       "id": 3,
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       "name": "Electronics",
       "image": "images/products/fitness-tracker-new.jpg",
-=======
+
       "name": "Accessories",
       "image": "https://via.placeholder.com/300x400?text=Accessories",
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "name": "Electronics",
       "image": "images/products/fitness-tracker-new.jpg",
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "productCount": 80
     },
     {
       "id": 4,
-<<<<<<< HEAD
-<<<<<<< HEAD
       "name": "Home Decor",
       "image": "images/products/curtains-new.jpg",
-=======
+
       "name": "Footwear",
       "image": "https://via.placeholder.com/300x400?text=Footwear",
->>>>>>> 284b462 (added files of e-commerce app)
-=======
+
       "name": "Home Decor",
       "image": "images/products/curtains-new.jpg",
->>>>>>> 05da805 (Resolved merge conflict and added Jenkinsfile)
       "productCount": 65
     }
   ],
