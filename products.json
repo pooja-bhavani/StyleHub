@@ -101,7 +101,6 @@
       "images": [
         "images/sunglasses.jpg",
         "https://via.placeholder.com/500x600?text=Sunglasses+Front",
-        "https://via.placeholder.com/500x600?text=Sunglasses+Side"
       ],
       "stock": 120,
       "tags": ["sunglasses", "accessories", "fashion"]
