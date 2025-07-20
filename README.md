@@ -1,12 +1,12 @@
-If you click you will see the architecture of the app
+## Application Architecture
 
 https://stylehub-dev.netlify.app/ 
 
 <img width="1470" height="956" alt="Screenshot 2025-07-20 at 9 35 17 PM" src="https://github.com/user-attachments/assets/30c1acb7-e30c-4c23-9b6b-ff711aa99af3" /># StyleHub Online Shop
-**<img width="2914" height="1472" alt="image" src="https://github.com/user-attachments/assets/91d31314-4c17-492a-9e87-8d8771a9b19d" />**
+<img width="2897" height="1593" alt="image" src="https://github.com/user-attachments/assets/c7eeecb7-ecc1-46e6-9317-ca476c481f9f" />
 
 
-Kubernetes-MCP-Server
+## Kubernetes-MCP-Server
 
 ![image](https://github.com/user-attachments/assets/cba586a0-d233-4335-95c2-f397bf96cbf8)
 
