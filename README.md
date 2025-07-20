@@ -2,7 +2,8 @@
 
 https://stylehub-dev.netlify.app/ 
 
-<img width="1470" height="956" alt="Screenshot 2025-07-20 at 9 35 17 PM" src="https://github.com/user-attachments/assets/30c1acb7-e30c-4c23-9b6b-ff711aa99af3" />
+<img width="2914" height="1241" alt="image" src="https://github.com/user-attachments/assets/4e016022-820d-492c-8393-dfe0cf045d66" />
+
 <img width="2897" height="1593" alt="image" src="https://github.com/user-attachments/assets/c7eeecb7-ecc1-46e6-9317-ca476c481f9f" />
 
 
