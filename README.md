@@ -2,7 +2,6 @@
 
 **Website Link:**
 https://stylehub-dev.netlify.app/ 
-<img width="2910" height="1590" alt="image" src="https://github.com/user-attachments/assets/385b01f9-e001-4dd5-a115-6db1723235ac" />
 
 <img width="2914" height="1241" alt="image" src="https://github.com/user-attachments/assets/4e016022-820d-492c-8393-dfe0cf045d66" />
 
