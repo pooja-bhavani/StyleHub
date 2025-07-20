@@ -4,9 +4,7 @@ If you click you will see the architecture of the app
 
 https://stylehub-dev.netlify.app/ 
 
-![image](https://github.com/user-attachments/assets/63f804a4-9c5c-461f-9915-4dc717d45383)
-![image](https://github.com/user-attachments/assets/4cc7635b-375d-4899-b32f-c440d4e0c4fc)
-<img width="1470" height="956" alt="Screenshot 2025-07-20 at 9 35 28 PM" src="https://github.com/user-attachments/assets/17566052-d5a9-437c-ab20-63eed078f9e9" />
+**<img width="2914" height="1472" alt="image" src="https://github.com/user-attachments/assets/91d31314-4c17-492a-9e87-8d8771a9b19d" />**
 
 
 Kubernetes-MCP-Server
