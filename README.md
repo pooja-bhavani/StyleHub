@@ -48,15 +48,3 @@ And then run it:
 docker run -p 8080:80 stylehub-online-shop
 ```
 
-## Development
-
-To run the site locally without Docker:
-
-1. Navigate to the project directory
-2. Start a local server:
-
-```bash
-python -m http.server 8000
-```
-
-3. Open your browser and go to http://localhost:8000
