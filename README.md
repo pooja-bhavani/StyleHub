@@ -3,6 +3,9 @@
 **Website Link:** 
 https://stylehub-dev.netlify.app/login
 
+For Prompt
+Detailed Blog Link: https://medium.com/@poojabhavani19/building-deploying-stylehub-online-shop-with-amazon-q-argocd-kubernetes-more-709d4096a23a
+
 <img width="2914" height="1241" alt="image" src="https://github.com/user-attachments/assets/4e016022-820d-492c-8393-dfe0cf045d66" />
 
 <img width="2897" height="1593" alt="image" src="https://github.com/user-attachments/assets/c7eeecb7-ecc1-46e6-9317-ca476c481f9f" />
