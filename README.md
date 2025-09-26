@@ -1,7 +1,7 @@
 ## Application Architecture
 
 **Website Link:** 
-https://stylehub-dev.netlify.app/ 
+https://stylehub-dev.netlify.app/login
 
 <img width="2914" height="1241" alt="image" src="https://github.com/user-attachments/assets/4e016022-820d-492c-8393-dfe0cf045d66" />
 
