@@ -1,2 +1,0 @@
-
-So instead of manually deciding which server each container runs on, monitoring them, and replacing failed ones, Kubernetes does it automatically based on rules you define.
